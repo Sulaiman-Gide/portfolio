@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 function Projects() {
   return (
-    <div className='px-10 pt-10 pb-5' id='projects'>
+    <div className='px-10 pt-10' id='projects'>
         <h1 className='font-bold text-gray-300 py-5 w-full text-center uppercase tracking-[15px] lg:text-5xl text-xl'>Projects</h1>
-        <div className='flex justify-center xl:justify-between items-center flex-wrap mt-5'>
+        <div className='flex justify-center xl:justify-between items-center flex-wrap mt-5 pb-5'>
           <figure className="hover-img">
             <img src="export.jpg"/>
             <figcaption>
