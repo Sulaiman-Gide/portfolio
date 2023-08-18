@@ -27,7 +27,7 @@ export default function About({}: Props) {
         <div className='md:px-10 px-1'>
             <h1 className='font-bold text-gray-300 py-5 w-full text-center uppercase tracking-[15px] lg:text-3xl text-xl'>Little background</h1>
             <p className='text-base text-gray-200 lg:text-xl'>
-                I'm Sulaiman Ibrahim Gide, here's a little bit about me... I've been coding for over 5 years now. As a Front-End developer
+                I'm Sulaiman Ibrahim Gide, here's a little bit about me... I've been coding for over 3 years now. As a Front-End developer
                 I've designed many websites and worked with startups and large corporations to help build scale thier companies.
                 I have extensive knowledge of HTML, CSS, JavaScript, SQL, Google firebase, PHP, React and Next.Js combined with my communication and problem-solving skills.
                 I have always been passionate about web development, which led me constantly seeking out new technologies and staying up-to-date on trends in the industry.
