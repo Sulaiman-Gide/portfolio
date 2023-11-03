@@ -8,8 +8,8 @@ export default function About({}: Props) {
     <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1.5 }}
-        className='flex flex-col about relative text-center lg:text-left lg:flex-row max-w-7xl px-2 py-10 md:px-10 justify-evenly mx-auto items-center'>
+        transition={{ duration: .5 }}
+        className='flex justify-center lg:justify-between items-center flex-col lg:flex-row w-full px-2 sm:px-5 lg:px-20 select-none'>
             
         <motion.img 
             initial={{
@@ -22,13 +22,18 @@ export default function About({}: Props) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             src='/IMG_4462.JPG'
-            className='lg:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover lg:rounded-lg sm:w-54 sm:h-95 md:w-54 md:h-95 xl:w-[400px] xl:h-[500px]'
+            className='mb-5 sm:mb-10 lg:mb-0 w-56 h-56 lg:w-2/5 lg:h-[400px] rounded-full lg:rounded-md object-cover '
         />
-        <div className='md:px-10 px-1'>
-            <h1 className='font-bold text-gray-300 py-5 w-full text-center uppercase tracking-[15px] lg:text-3xl text-xl'>Little background</h1>
-            <p className='text-base text-gray-200 lg:text-xl'>
-                I'm Sulaiman Ibrahim Gide, here's a little bit about me.  I've been coding for over 4 years now. As a Front-End developer, I've designed many websites and worked with startups and large corporations to help build and scale their companies. I have extensive knowledge of HTML, CSS, JavaScript, SQL, Google Firebase, PHP, React and Next.Js combined with my communication and problem-solving skills. I have always been passionate about web development, which led me to constantly seek out new technologies and stay up-to-date on trends in the industry.
-            </p>
+        <div className='lg:w-3/5 lg:pl-5 px-1'>
+            <h1 className='font-bold text-gray-900 dark:text-white mb-2 w-full tracking-wider sm:text-2xl text-xl'>Professional Background:</h1>
+            <div>
+                <p className='text-sm sm:text-base text-gray-800 dark:text-gray-50 sm:px-1 tracking-wide'>
+                     I am Sulaiman Ibrahim Gide, a dedicated Front-End Developer with a passion for delivering innovative digital solutions. Throughout my career, I have collaborated with startups and large corporations, playing a pivotal role in the design and development of impactful websites. With an extensive understanding of HTML, CSS, JavaScript, SQL, and PHP, I have contributed to the creation of tailored solutions that align with diverse business needs.
+                </p>
+                <p className='text-sm sm:text-base text-gray-800 dark:text-gray-50 sm:px-1 tracking-wide mt-2'>
+                    In addition to my technical capabilities, I have a strong command of Tailwind CSS and Material-UI, allowing me to design and develop visually striking and user-friendly interfaces. My commitment to staying abreast of the latest industry trends and technologies enables me to consistently deliver cutting-edge solutions. Combined with effective communication and problem-solving skills, I strive to create seamless and engaging digital experiences that drive user engagement and elevate brand presence.
+                </p>
+            </div>
         </div>
     </motion.div>
   )
