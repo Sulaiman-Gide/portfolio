@@ -6,14 +6,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Services';
-import Skills from './components/Skills';
-import SkillsResp from './components/SkillsResp';
 import Projects from './components/Projects';
 import GetInTouch from './components/GetInTouch';
 import Footer from './components/Footer';
@@ -53,15 +50,13 @@ export default function Home() {
       <h1 className='font-bold text-gray-800 dark:text-white uppercase tracking-[7px] text-2xl text-center my-8'>Dev_<span className='text-teal-600'>Gide</span></h1>
       <List className='px-5 flex flex-col justify-between overflow-y-auto pb-20'>
         <div className='flex flex-col'>
-          <Link href="/" className=" py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Home</Link>
+          <Link href="#about" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">About</Link>
 
-          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">About</Link>
-
-          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Skills</Link>
+          <Link href="#experience" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Skills</Link>
           
-          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Portfolio</Link>
+          <Link href="#projects" className="border-t-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Portfolio</Link>
 
-          <Link href="/" className="border-y-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Contact Me</Link>
+          <Link href="#contact" className="border-y-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Contact Me</Link>
         </div>
       </List>
     </Box>
@@ -71,16 +66,15 @@ export default function Home() {
       <section className='bg-slate-50/50 dark:bg-gray-900 py-5 px-5 sm:px-12 w-full flex justify-between items-center z-20'>
         <h1 className='font-bold uppercase tracking-[7px] lg:text-3xl text-xl'>Dev_<span className='text-teal-600'>Gide</span></h1>
         <div className='hidden lg:block'>
-          <Link href="/" className="text-base  md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">Home</Link>
 
-          <Link href="/" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">About</Link>
+          <Link href="#about" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">About</Link>
 
-          <Link href="/" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">Services</Link>
+          <Link href="#experience" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">Services</Link>
           
-          <Link href="/" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white ml-2 tracking-[2px]">Portfolio</Link>
+          <Link href="#projects" className="text-base md:text-lg md:hover:text-gray-400 font-semibold dark:text-white ml-2 tracking-[2px]">Portfolio</Link>
         </div>
 
-        <Link href="/" className="hidden lg:block py-1 px-3 border-2 border-teal-600 rounded-md text-base transition-all hover:bg-teal-600 md:text-lg hover:text-white font-semibold dark:text-white ml-2 tracking-[2px]">Contact Me</Link>
+        <Link href="#contact" className="hidden lg:block py-1 px-3 border-2 border-teal-600 rounded-md text-base transition-all hover:bg-teal-600 md:text-lg hover:text-white font-semibold dark:text-white ml-2 tracking-[2px]">Contact Me</Link>
 
         <div className='lg:hidden'>
           {['top'].map((anchor) => (
@@ -98,10 +92,12 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section id='hero' className='select-none'>
+      <span id='hero'></span>
+      <section className='select-none'>
         <Hero />
       </section>
-      <section id='about' className='md:mt-20'>
+      <span id='about'></span>
+      <section className='md:mt-20'>
        <About />
       </section>
       <section id='experience' className='md:mt-20'>

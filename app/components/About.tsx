@@ -8,7 +8,7 @@ export default function About({}: Props) {
     <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: .5 }}
+        transition={{ duration: .1 }}
         className='flex justify-center lg:justify-between items-center flex-col lg:flex-row w-full px-2 sm:px-5 lg:px-20 select-none'>
             
         <motion.img 
@@ -28,8 +28,7 @@ export default function About({}: Props) {
             <h1 className='font-bold text-gray-900 dark:text-white mb-2 w-full tracking-wider sm:text-2xl text-xl'>Professional Background:</h1>
             <div>
                 <p className='text-sm sm:text-base text-gray-800 dark:text-gray-50 sm:px-1 tracking-wide'>
-                     I am Sulaiman Ibrahim Gide, a dedicated Front-End Developer with a passion for delivering innovative digital solutions. Throughout my career, I have collaborated with startups and large corporations, playing a pivotal role in the design and development of impactful websites. With an extensive understanding of HTML, CSS, JavaScript, SQL, and PHP, I have contributed to the creation of tailored solutions that align with diverse business needs.
-                </p>
+                    I am Sulaiman Ibrahim Gide, a dedicated Web Developer with a passion for delivering innovative and secure digital solutions. Throughout my career, I have collaborated with startups and large corporations, playing a pivotal role in the design and development of impactful and secured websites. With an extensive understanding of HTML, CSS, JavaScript, SQL, PHP, and Google Firebase, I have contributed to the creation of tailored solutions that align with diverse business needs.                </p>
                 <p className='text-sm sm:text-base text-gray-800 dark:text-gray-50 sm:px-1 tracking-wide mt-2'>
                     In addition to my technical capabilities, I have a strong command of Tailwind CSS and Material-UI, allowing me to design and develop visually striking and user-friendly interfaces. My commitment to staying abreast of the latest industry trends and technologies enables me to consistently deliver cutting-edge solutions. Combined with effective communication and problem-solving skills, I strive to create seamless and engaging digital experiences that drive user engagement and elevate brand presence.
                 </p>
