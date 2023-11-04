@@ -55,20 +55,20 @@ export default function Home() {
         <div className='flex flex-col'>
           <Link href="/" className=" py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Home</Link>
 
-          <Link href="/" className="border-t-2 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">About</Link>
+          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">About</Link>
 
-          <Link href="/" className="border-t-2 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Skills</Link>
+          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3 text-base text-gray-700 dark:text-slate-50 font-bold tracking-[2px]">Skills</Link>
           
-          <Link href="/" className="border-t-2 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Portfolio</Link>
+          <Link href="/" className="border-t-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Portfolio</Link>
 
-          <Link href="/" className="border-y-2 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Contact Me</Link>
+          <Link href="/" className="border-y-2 dark:border-gray-800 py-4 pl-3  text-gray-700 dark:text-slate-50 tracking-[2px] font-bold">Contact Me</Link>
         </div>
       </List>
     </Box>
   );
   return (
     <div className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 cursor-pointer bg-white dark:bg-black'>
-      <section className='bg-slate-50/50 dark:bg-gray-800 py-5 px-5 sm:px-12 w-full flex justify-between items-center z-20'>
+      <section className='bg-slate-50/50 dark:bg-gray-900 py-5 px-5 sm:px-12 w-full flex justify-between items-center z-20'>
         <h1 className='font-bold uppercase tracking-[7px] lg:text-3xl text-xl'>Dev_<span className='text-teal-600'>Gide</span></h1>
         <div className='hidden lg:block'>
           <Link href="/" className="text-base  md:hover:text-gray-400 font-semibold dark:text-white mx-2 tracking-[2px]">Home</Link>

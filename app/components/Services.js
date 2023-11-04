@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrPersonalComputer } from 'react-icons/gr';
+import { MdComputer } from 'react-icons/md';
 import { FiSmartphone } from 'react-icons/fi';
 import { GiAutoRepair } from 'react-icons/gi';
 
@@ -11,7 +11,7 @@ function Experience() {
       <div className='flex md:flex-wrap flex-col sm:flex-row md:gap-4 p-5 px-0 sm:px-5 justify-center sm:justify-between items-center sm:items-stretch'>  
 
           <div className='md:flex-1 shadow-sm w-full sm:w-[300px] bg-gray-100/50 hover:bg-gray-100 dark:bg-gray-800/80 dark:hover:bg-gray-800 flex flex-col justify-start items-center m-2 md:m-0 py-5 px-2 sm:px-5 border dark:border-none rounded-md'>
-            <GrPersonalComputer size={100} className="text-gray-900 dark:text-gray-50 text-cen5er p-5 border rounded-full" />
+            <MdComputer size={100} className="text-gray-900 dark:text-gray-50 text-center p-5 border dark:border-gray-900 rounded-full" />
             <div>
               <h1 className='font-semibold py-3 text-xl sm:text-lg text-center my-1'>Web Development</h1>
               <p className='text-sm tracking-wide text-center text-gray-800 dark:text-gray-50'>
@@ -21,7 +21,7 @@ function Experience() {
           </div>
 
           <div className='md:flex-1 shadow-sm w-full sm:w-[300px] bg-gray-100/50 hover:bg-gray-100 dark:bg-gray-800/80 dark:hover:bg-gray-800 flex flex-col justify-start items-center m-2 md:m-0 py-5 px-2 sm:px-5 border dark:border-none rounded-md'>
-            <FiSmartphone size={100} className="text-gray-900 dark:text-gray-50 text-center p-5 border rounded-full" />
+            <FiSmartphone size={100} className="text-gray-900 dark:text-gray-50 text-center p-5 border dark:border-gray-900 rounded-full" />
             <div>
               <h1 className='font-semibold py-3 text-xl sm:text-lg text-center my-1'>Responsive Design</h1>
               <p className='text-sm tracking-wide text-center text-gray-800 dark:text-gray-50'>
@@ -30,7 +30,7 @@ function Experience() {
             </div>
           </div>
           <div className='md:flex-1 shadow-sm w-full sm:w-[300px] bg-gray-100/50 hover:bg-gray-100 dark:bg-gray-800/80 dark:hover:bg-gray-800 flex flex-col justify-start items-center m-2 md:m-0 py-5 px-2 sm:px-5 border dark:border-none rounded-md'>
-            <GiAutoRepair size={100} className="text-gray-900 dark:text-gray-50 text-center p-5 border rounded-full" />
+            <GiAutoRepair size={100} className="text-gray-900 dark:text-gray-50 text-center p-5 border dark:border-gray-900 rounded-full" />
             <div>
               <h1 className='font-semibold py-3 text-xl sm:text-lg text-center my-1'>Upgrade Existing Websites</h1>
               <p className='text-sm tracking-wide text-center text-gray-800 dark:text-gray-50'>
