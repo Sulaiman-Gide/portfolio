@@ -67,7 +67,7 @@ export default function Home() {
     </Box>
   );
   return (
-    <div className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 cursor-pointer bg-white dark:bg-gray-900'>
+    <div className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 cursor-pointer bg-white dark:bg-black'>
       <section className='bg-slate-50/50 dark:bg-gray-800 py-5 px-5 sm:px-12 w-full flex justify-between items-center z-20'>
         <h1 className='font-bold uppercase tracking-[7px] lg:text-3xl text-xl'>Dev_<span className='text-teal-600'>Gide</span></h1>
         <div className='hidden lg:block'>

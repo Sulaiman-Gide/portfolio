@@ -5,9 +5,9 @@ import { GiAutoRepair } from 'react-icons/gi';
 
 function Experience() {
   return (
-    <div className='mt-12 md:mt-5 py-5  px-1 sm:px-5 lg:px-20 select-none'>
-      <h1 className='lg:text-lg text-xs text-center mx-auto pb-2 text-teal-600'>What I am Expert In</h1>
-      <h2 className='lg:text-5xl sm:text-3xl text-2xl font-bold text-center mx-auto lg:pb-5 pb-2 tracking-wider sm:tracking-[4px] text-gray-900 dark:text-white'>My Service</h2>
+    <div className='mt-12 md:mt-5 py-5 px-2 sm:px-5 lg:px-20 select-none'>
+      <h1 className='lg:text-lg text-sm text-center mx-auto pb-2 text-teal-600'>What I am Expert In</h1>
+      <h2 className='lg:text-5xl text-3xl font-bold text-center mx-auto lg:pb-5 pb-2 tracking-wider sm:tracking-[4px] text-gray-900 dark:text-white'>My Service</h2>
       <div className='flex md:flex-wrap flex-col sm:flex-row md:gap-4 p-5 px-0 sm:px-5 justify-center sm:justify-between items-center sm:items-stretch'>  
 
           <div className='md:flex-1 shadow-sm w-full sm:w-[300px] bg-gray-100/50 hover:bg-gray-100 dark:bg-gray-800/80 dark:hover:bg-gray-800 flex flex-col justify-start items-center m-2 md:m-0 py-5 px-2 sm:px-5 border dark:border-none rounded-md'>

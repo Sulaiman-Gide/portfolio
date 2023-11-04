@@ -39,17 +39,17 @@ function GetInTouch() {
             <form className="w-full sm:w-4/5 mx-auto" ref={form} onSubmit={sendEmail}>
                 <span className='flex flex-col w-full my-3'>
                     <label className='font-bold'>Full Name:</label>
-                    <input type="text" name="user_name" className='border-2 p-2 mt-2 rounded-md' placeholder="Name"/>
+                    <input type="text" name="user_name" className='border-2 dark:border-gray-900 p-2 mt-2 rounded-md' placeholder="Name"/>
                 </span>
 
                 <span className='flex flex-col w-full my-3'>
                     <label htmlFor="emailFrom" className='font-bold'>Email Address:</label>
-                    <input type="email" className="border-2 p-2 mt-2 rounded-md" placeholder="person@example.com" name="user_email" />
+                    <input type="email" className="border-2 dark:border-gray-900 p-2 mt-2 rounded-md" placeholder="person@example.com" name="user_email" />
                 </span>
 
                 <span className='flex flex-col w-full my-3'>
                     <label htmlFor="message" className='font-bold'>Message:</label>
-                    <textarea className="border-2 p-2 mt-2 rounded-md" placeholder="message" name="message" />
+                    <textarea className="border-2 dark:border-gray-900 p-2 mt-2 rounded-md" placeholder="message" name="message" />
                 </span>
 
                 <div className='w-full flex justify-start items-center'>
