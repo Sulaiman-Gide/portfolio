@@ -2,6 +2,8 @@ import React from 'react'
 import LaunchIcon from '@mui/icons-material/Launch';
 import Link from 'next/link';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { FaCode } from "react-icons/fa6";
+
 function Projects() {
   return (
     <div className='px-2 xl:px-10 pt-10' id='projects'>
@@ -13,7 +15,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Full Stack Developer</h1>
                 <a href="https://catering-sulaiman-gide.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
@@ -27,7 +29,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Full Stack Developer</h1>
                 <a href="https://sales-admin-sulaiman-gide.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
@@ -41,7 +43,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Full Stack Developer</h1>
                 <a href="https://www.aretecom.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
@@ -56,7 +58,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Front-End Developer</h1>
                 <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
@@ -71,7 +73,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Front-End Developer</h1>
                 <a href="https://news-sulaiman-gide.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
@@ -86,7 +88,7 @@ function Projects() {
               <div className="flex justify-between items-center mt-2 mb-3">
                 <h1 className='font-bold text-base'>Front-End Developer</h1>
                 <a href="https://movies-sulaiman-gide.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-center">
-                  <BsBoxArrowUpRight size={24} className="m-2 sm:m-3" />
+                  <FaCode size={24} className="m-2 sm:m-3" />
                 </a>
               </div>
               <h1 className='text-sm sm:text-base text-gray-700 dark:text-gray-50 w-full'>    
